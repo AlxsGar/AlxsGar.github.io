@@ -18,24 +18,24 @@ function Navigation() {
         <div className={classes.options}>
           <ul>
             <li>
-              <a href="/"><img alt="Home icon" src={home_icon} /></a>
-              <a href="/">Home</a>
+              <a href="/#"><img alt="Home icon" src={home_icon} /></a>
+              <a href="/#">Home</a>
             </li>
             <li>
-              <a href="/portfolio"><img alt="Home icon" src={portfolio_icon} /></a>
-              <a href="/portfolio">Portfolio</a>
+              <a href="/#/portfolio"><img alt="Home icon" src={portfolio_icon} /></a>
+              <a href="/#/portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="/hobbies"><img alt="Home icon" src={hobby_icon} /></a>
-              <a href="/hobbies">Hobbies</a>
+              <a href="/#/hobbies"><img alt="Home icon" src={hobby_icon} /></a>
+              <a href="/#/hobbies">Hobbies</a>
             </li>
             <li>
-              <a href="/about"><img alt="Home icon" src={about_icon} /></a>
-              <a href="/about">About me</a>
+              <a href="/#/about"><img alt="Home icon" src={about_icon} /></a>
+              <a href="/#/about">About me</a>
             </li>
             <li>
-              <a href="/contact"><img alt="Home icon" src={contact_icon} /></a>
-              <a href="/contact">Contact</a>
+              <a href="/#/contact"><img alt="Home icon" src={contact_icon} /></a>
+              <a href="/#/contact">Contact</a>
             </li>
           </ul>
         </div>
