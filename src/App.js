@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navigation from "./Components/Navigation/Navigation";
 import Home from "./Components/Body/Home/Home";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Portfolio from "./Components/Body/Portfolio/Portfolio";
 import Hobbies from "./Components/Body/Hobbies/Hobbies";
 import About from "./Components/Body/AboutMe/About";
@@ -10,7 +10,6 @@ import Contact from "./Components/Body/Contact/Contact";
 
 function App() {
   return (
-    <Router>
       <div className="app">
         <Navigation />
         <Routes>
@@ -21,7 +20,6 @@ function App() {
           <Route path="/contact" exact element={<Contact/>}/>
         </Routes>
       </div>
-    </Router>
   );
 }
 
