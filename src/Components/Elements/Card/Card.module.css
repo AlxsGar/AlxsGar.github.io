@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    column-gap: 2rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardInv{
+    display: flex;
+    column-gap: 5rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.imgContainer{
+    max-width: 640px;
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.imgContainer img{
+    width: 640px;
+    height: 360px;
+    object-fit: contain;
+}
+
+.description{
+    flex: 1 1 0;
+    max-width: 30rem;
+    margin: auto 0;
+}
+
+@media screen and (max-width:642px) {
+    .imgContainer{
+        max-width: 480px;
+    }
+    
+    .imgContainer img{
+        width: 320px;
+        height: 180px;
+    }
+}

@@ -1,0 +1,57 @@
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  animation: slideDown 250ms linear;
+}
+
+@keyframes slideDown {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+
+.linksList {
+  list-style: none;
+  margin: auto;
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  row-gap: 5rem;
+}
+
+.linksList li {
+  margin: auto 1rem;
+  font-weight: bolder;
+  font-size: 125%;
+}
+
+.linksList li:hover{
+  color: yellow;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.menuIcon {
+  text-align: right;
+  margin: 5px;
+}
+
+.menuIcon img {
+  filter: invert(1);
+}
+
+@media screen and (min-width: 426px) {
+  .menu {
+    display: none;
+  }
+}

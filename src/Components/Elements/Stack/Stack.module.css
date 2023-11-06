@@ -1,0 +1,28 @@
+.stack{
+    padding: auto;
+    margin: 10px auto;
+}
+
+.stackList{
+    display: flex;
+    justify-content: left;
+}
+
+.stackItem{
+    width: 35px;
+    height: 35px;
+    margin: auto;
+}
+
+.stackItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: auto;
+}
+
+@media screen and (max-width:375px) {
+    .stack{
+        display: none;
+    }
+}

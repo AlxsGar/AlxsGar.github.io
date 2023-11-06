@@ -1,0 +1,41 @@
+.navbar{
+    padding: 1rem;
+    background-color: #141414;
+}
+
+.linksList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.linksList li{
+    margin: auto 1rem;
+}
+
+.linksList li:hover{
+    color: yellow;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.menuIcon{
+    display: none;
+}
+
+.menuIcon img{
+    filter: invert(1);
+}
+
+@media screen and (max-width:425px) {
+    .linksList{
+        display: none;
+    }
+
+    .menuIcon{
+        display: block;
+    }
+}
